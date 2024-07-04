@@ -1,30 +1,24 @@
-# Data-Science-Summer-Research-
-Data Analysis and Prediction of Contract vs Full Time Tech Jobs
-# AI/ML Jobs Analysis
+# AI/ML Jobs Analysis Project
 
-This project provides tools to analyze AI/ML job listings data from LinkedIn. The data is visualized and summarized using various libraries such as pandas, plotly, and sklearn.
+This project analyzes AI/ML job listings data from LinkedIn. The analysis includes visualizing job types, experience levels, and predicting trends over time.
 
-## Table of Contents
+## Project Overview
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Functions](#functions)
-  - [display_scrollable_dataframe](#display_scrollable_dataframe)
-  - [display_categorical_summary_statistics](#display_categorical_summary_statistics)
-  - [create_scrollable_table](#create_scrollable_table)
-  - [plot_contract_vs_fulltime_jobs](#plot_contract_vs_fulltime_jobs)
-  - [display_experience_level_breakdown](#display_experience_level_breakdown)
-  - [plot_experience_level_breakdown](#plot_experience_level_breakdown)
-  - [display_experience_level_breakdown_fulltime](#display_experience_level_breakdown_fulltime)
-  - [plot_experience_level_breakdown_fulltime](#plot_experience_level_breakdown_fulltime)
-  - [plot_experience_level_comparison](#plot_experience_level_comparison)
-  - [prepare_data](#prepare_data)
-  - [train_and_predict](#train_and_predict)
-  - [plot_predictions](#plot_predictions)
+The main tasks performed in this project are:
 
-## Installation
+1. **Data Loading and Display**:
+   - Loaded AI/ML job listings data from a CSV file.
+   - Displayed data in a scrollable table, excluding the 'description' column.
 
-To use the provided scripts, you need to have the following Python libraries installed:
+2. **Summary Statistics**:
+   - Displayed summary statistics for categorical features.
+   - Analyzed null values and the percentage of missing values for each feature.
 
-```bash
-pip install pandas numpy plotly scipy scikit-learn
+3. **Visualization**:
+   - Plotted the distribution of contract vs full-time jobs.
+   - Displayed and plotted the experience level breakdown for both contract and full-time positions.
+   - Compared experience level breakdowns for contract vs full-time positions.
+
+4. **Prediction**:
+   - Prepared data for time series analysis.
+   - Trained a linear regression model to
