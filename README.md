@@ -1,4 +1,4 @@
-# [AI/ML Jobs Analysis Project](https://github.com/alejandro-garf/Data-Science-Summer-Research-/blob/main/AIandMLResearchNotebook.ipynb)
+# [AI/ML Jobs Analysis Project](https://github.com/alejandro-garf/Data-Science-Summer-Research-/blob/main/AI%20%26%20ML%20Contractor%20Jobs%20Anaysis/AI%26MLResearchNotebook.ipynb)
 
 This project analyzes AI/ML job listings data from LinkedIn. The analysis includes visualizing job types, experience levels, and predicting trends over time.
 
