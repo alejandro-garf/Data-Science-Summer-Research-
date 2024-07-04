@@ -21,4 +21,14 @@ The main tasks performed in this project are:
 
 4. **Prediction**:
    - Prepared data for time series analysis.
-   - Trained a linear regression model to
+   - Trained a linear regression model to predict the number of contract jobs over time.
+   - Plotted actual and predicted contract job trends.
+
+## Technologies Used
+
+- **Pandas** for data manipulation and analysis.
+- **NumPy** for numerical operations.
+- **Plotly** for creating interactive plots.
+- **SciPy** for statistical analysis.
+- **Scikit-learn** for machine learning and prediction.
+- **Matplotlib** for additional plotting capabilities.
